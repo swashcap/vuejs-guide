@@ -19,3 +19,25 @@ div[id*=app] {
   margin-bottom: 1em;
   padding: 1em;
 }
+
+button {
+  background: none;
+  border: thin solid;
+  border-radius: 3px;
+  color: rgb(58, 102, 240);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: inherit;
+  padding: .5em .75em;
+}
+button:focus,
+button:hover {
+  color: rgb(48, 84, 198)
+}
+button:active {
+  background: white;
+  color: rgb(62, 80, 177);
+}
+
