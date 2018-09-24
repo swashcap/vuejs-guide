@@ -41,3 +41,11 @@ button:active {
   color: rgb(62, 80, 177);
 }
 
+input {
+  background: white;
+  border: thin solid black;
+  border-radius: 3px;
+  font-family: inherit;
+  line-height: inherit;
+  padding: .5em .75em;
+}
